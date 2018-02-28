@@ -21,3 +21,14 @@ dependencies {
     compile "com.fasterxml.jackson.module:jackson-module-kotlin:2.9.4"
     compile "org.jetbrains.kotlin:kotlin-stdlib-jre8"
 }
+
+subprojects {
+    configurations.all {
+        resolutionStrategy {
+            forcedModules = [
+                "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion",
+                "org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion"
+            ]
+        }
+    }
+}
