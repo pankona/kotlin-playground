@@ -1,4 +1,4 @@
-package code.example
+package io.pankona
 
 fun main(args: Array<String>) {
     println("Hello World!!")

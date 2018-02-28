@@ -66,7 +66,7 @@ set CMD_LINE_ARGS=%*
 set CLASSPATH=%APP_HOME%\lib\kotlin-playground.jar;%APP_HOME%\lib\kotlin-stdlib-jre8-1.2.21.jar;%APP_HOME%\lib\kotlin-stdlib-jre7-1.2.21.jar;%APP_HOME%\lib\kotlin-stdlib-1.2.21.jar;%APP_HOME%\lib\annotations-13.0.jar
 
 @rem Execute kotlin-playground
-"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %KOTLIN_PLAYGROUND_OPTS%  -classpath "%CLASSPATH%" code.example.HelloWorldKt %CMD_LINE_ARGS%
+"%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %KOTLIN_PLAYGROUND_OPTS%  -classpath "%CLASSPATH%" io.pankona.HelloWorldKt %CMD_LINE_ARGS%
 
 :end
 @rem End local scope for the variables with windows NT shell
