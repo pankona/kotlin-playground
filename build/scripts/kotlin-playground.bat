@@ -63,7 +63,7 @@ set CMD_LINE_ARGS=%*
 :execute
 @rem Setup the command line
 
-set CLASSPATH=%APP_HOME%\lib\kotlin-playground.jar;%APP_HOME%\lib\kotlin-stdlib-jre8-1.1.3-2.jar;%APP_HOME%\lib\kotlin-stdlib-jre7-1.1.3-2.jar;%APP_HOME%\lib\kotlin-stdlib-1.1.3-2.jar;%APP_HOME%\lib\annotations-13.0.jar
+set CLASSPATH=%APP_HOME%\lib\kotlin-playground.jar;%APP_HOME%\lib\kotlin-stdlib-jre8-1.2.21.jar;%APP_HOME%\lib\kotlin-stdlib-jre7-1.2.21.jar;%APP_HOME%\lib\kotlin-stdlib-1.2.21.jar;%APP_HOME%\lib\annotations-13.0.jar
 
 @rem Execute kotlin-playground
 "%JAVA_EXE%" %DEFAULT_JVM_OPTS% %JAVA_OPTS% %KOTLIN_PLAYGROUND_OPTS%  -classpath "%CLASSPATH%" code.example.HelloWorldKt %CMD_LINE_ARGS%
